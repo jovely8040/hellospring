@@ -25,18 +25,17 @@
     </plugins>
   </build>
   
-  <!-- Dependencies  -->
+  <!-- Dependencies -->
   <dependencies>
-  
   	<!-- Spring Context -->
-  	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-context</artifactId>
 	    <version>${org.springframework-version}</version>
 	</dependency>
 
-	<!-- Spring Web  -->
+	<!-- Spring Web -->
 	<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
 	<dependency>
 	    <groupId>org.springframework</groupId>
@@ -44,7 +43,7 @@
 	    <version>${org.springframework-version}</version>
 	</dependency>
 
-	<!-- Spring Web MVC -->
+	<!-- Spring WebMVC -->
 	<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 	<dependency>
 	    <groupId>org.springframework</groupId>
@@ -53,6 +52,5 @@
 	</dependency>
 
   </dependencies>
-  
   
 </project>
